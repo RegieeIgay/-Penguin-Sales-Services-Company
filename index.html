@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <title>Penguin Sales & Services Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top border-1 border-bottom border-warning">
+        <div class="container-fluid">
+            <div class="d-flex flex-column align-items-center ms-2 me-5">
+                <a>
+                    <img src="logo.png" alt="Logo" style="width: 40px; height: 40px;" >
+                </a>
+                <span class="text-warning text-center" style="font-size: 0.65rem;">We Make It Happen</span>
+            </div>
+          <button class="navbar-toggler border-2 border-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-warning"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-warning" aria-current="page" href="#home">Home</a>
+                </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu bg-dark border-1 border-warning">
+                    <li><a class="dropdown-item text-warning" href="#bridalCarServices">Bridal Car Services</a></li>
+                    <li><a class="dropdown-item text-warning" href="#towingServices">Towing Services 24/7</a></li>
+                    <li><a class="dropdown-item text-warning" href="#truckingServices">Trucking Services</a></li>
+                    <li><a class="dropdown-item text-warning" href="#heavyEquipment">Heavt Equipment Rental</a></li>
+                    <li><a class="dropdown-item text-warning" href="#general">General Construction & Maintenance Services</a></li>
+                    <li><a class="dropdown-item text-warning" href="#hotel">Furniture Hotel & Residential</a></li>
+                    <li><a class="dropdown-item text-warning" href="#auto">Auto Parts</a></li>
+                    
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning me-2" href="#contact">Contact</a>
+            </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 border-1 border-warning" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning text-warning disabled" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="bg-success min-vh-100 d-flex align-items-center border-bottom border-warning border-1" 
+        style="background-image: url('H2.jpg'); background-size: cover; background-position: center;">
+        <div class="container-fluid text-center">
+            <h1 class="text-warning animated-text line-1">Penguin Sales & Services Company</h1>
+            <h1 class="text-warning animated-text line-2">Welcome to</h1>
+        </div>
+    </section>
+
+ <!-- Bridal Car Services Section -->
+<section id="bridalCarServices" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container border-2 border-warning">
+        <!-- Original Content -->
+        <div id="bridalCarContent">
+            <h1 class="text-warning text-center mb-4 mt-5">Bridal Car Services</h1>
+            <p class="text-warning text-center">
+                Our Bridal Car Services offer a luxurious experience tailored for your special day. We pride ourselves on our professionalism and attention to detail.
+            </p>
+            <p class="text-warning text-center">
+                We provide a range of packages to suit your needs, ensuring that you arrive in style and comfort. From the moment you book with us until the last moment of your celebration, we are dedicated to making your day unforgettable.
+            </p>
+            <div class="row">
+                <!-- Carousel -->
+                <div class="col-md-6 mt-5">
+                    <div id="bridalImageCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="br1.jpg" alt="Image 1" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="br2.jpg" alt="Image 2" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="b3.webp" alt="Image 3" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="br4.jpg" alt="Image 4" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#bridalImageCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#bridalImageCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bridal Car Services Information -->
+                <div class="col-md-6 package-details text-warning mt-4">
+                    <h4>Package Includes:</h4>
+                    <ul class="list-unstyled">
+                        <li>– Bouquet of flowers</li>
+                        <li>– VIP blinkers</li>
+                        <li>– Driver in semi-formal attire</li>
+                        <li>– From hotel to ceremony</li>
+                        <li>– From ceremony to reception</li>
+                        <li>– First 3 hours rate</li>
+                        <li>– Additional fee is applicable in excess of 3 hours</li>
+                        <li>– Fuel surcharge applies for distances greater than 30 km from the pick-up location</li>
+                    </ul>
+                    <h5>Rate: 5000.00 PHP</h5>
+                    <h4 class="text-warning mt-4">Additional Services:</h4>
+                    <ul class="list-unstyled text-warning">
+                        <li>– Customized decorations available</li>
+                        <li>– Complimentary champagne for the bride and groom</li>
+                        <li>– Photo opportunities at select locations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Inquire Now Button -->
+            <div class="text-center mt-5 mb-5">
+                <button onclick="showBridalInquiryForm()" class="btn btn-warning btn-lg">Inquire Now</button>
+            </div>
+        </div>
+
+        <!-- Inquiry Form (Initially Hidden) -->
+        <div id="bridalInquiryForm" style="display: none;">
+            <h1 class="text-warning text-center mb-4">Bridal Car Inquiry Form</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-warning">Name <small class="text-muted">(Enter your full name)</small></label>
+                    <input type="text" class="form-control" id="name"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-warning">Email <small class="text-muted">(Your email address)</small></label>
+                    <input type="email" class="form-control" id="email"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="carType" class="form-label text-warning">Car Type <small class="text-muted">(Select the type of car you prefer)</small></label>
+                    <input type="text" class="form-control" id="carType"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="date" class="form-label text-warning">Date <small class="text-muted">(When do you need the service?)</small></label>
+                    <input type="date" class="form-control" id="date" required>
+                </div>
+                <div class="mb-3">
+                    <label for="location" class="form-label text-warning">Location <small class="text-muted">(Where should we pick you up?)</small></label>
+                    <input type="text" class="form-control" id="location"  required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label text-warning">Message <small class="text-muted">(Any specific requests or questions)</small></label>
+                    <textarea class="form-control" id="message" rows="4"  required></textarea>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning">Submit Inquiry</button>
+                    <button type="button" onclick="hideBridalInquiryForm()" class="btn btn-secondary ms-3">Back</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Towing Services Section -->
+<section id="towingServices" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container border-2 border-warning">
+        <!-- Main Content -->
+        <div id="towingContent">
+            <h1 class="text-warning text-center mb-4 mt-5">Towing Services 24/7</h1>
+            <h5 class="text-warning text-center">Emergency Hotline: <strong>(0923) 086 8342</strong></h5>
+            <p class="text-warning text-center">
+                We are proud to inform you that we can handle any type of towing requirements, no matter how complex or complicated.
+            </p>
+            <p class="text-warning text-center">
+                We are committed to providing fast, affordable, reliable towing and recovery services. We offer our services 24 hours a day, seven days a week.
+            </p>
+
+            <div class="row">
+                <!-- Carousel -->
+                <div class="col-md-6">
+                    <div id="towingImageCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="tw1.jpg" alt="Image 1" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tw2.png" alt="Image 2" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tw3.jpg" alt="Image 3" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tw4.jpg" alt="Image 4" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#towingImageCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#towingImageCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Towing Services Information -->
+                <div class="col-md-6 package-details text-warning mt-4">
+                    <h4>Services Offered:</h4>
+                    <ul class="list-unstyled">
+                        <li>– 24/7 Emergency Towing</li>
+                        <li>– Light-Duty Towing</li>
+                        <li>– Flatbed Towing</li>
+                        <li>– Long-Distance Towing</li>
+                    </ul>
+                    <h5>Rate: 1500.00 PHP</h5>
+                    
+                    <h4 class="text-warning mt-4">Provide the following details:</h4>
+                    <ul class="list-unstyled text-warning">
+                        <li><strong>Pick Up Point:</strong> ______________________________________</li>
+                        <li><strong>Drop Off Point:</strong> ____________________________________</li>
+                        <li><strong>Vehicle Type:</strong> _______________________________________</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Inquire Now Button -->
+            <div class="text-center mt-5 mb-5">
+                <button onclick="showTowingInquiryForm()" class="btn btn-warning btn-lg">Inquire Now</button>
+            </div>
+        </div>
+
+        <!-- Inquiry Form (Hidden initially) -->
+        <div id="towingInquiryForm" class="d-none">
+            <h2 class="text-warning text-center mb-4 mt-5">Towing Service Inquiry</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-warning">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-warning">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pickup" class="form-label text-warning">Pick Up Point</label>
+                    <input type="text" class="form-control" id="pickup" required>
+                </div>
+                <div class="mb-3">
+                    <label for="dropoff" class="form-label text-warning">Drop Off Point</label>
+                    <input type="text" class="form-control" id="dropoff" required>
+                </div>
+                <div class="mb-3">
+                    <label for="vehicleType" class="form-label text-warning">Vehicle Type</label>
+                    <input type="text" class="form-control" id="vehicleType" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning">Submit Inquiry</button>
+                    <button type="button" class="btn btn-secondary" onclick="hideTowingInquiryForm()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Trucking Services Section -->
+<section id="truckingServices" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container border-2 border-warning">
+        <div id="truckingContent">
+            <h1 class="text-warning text-center mb-4 mt-5">Trucking Services 24/7</h1>
+            <h5 class="text-warning text-center">Contact us for proper quotation at <strong>(0923) 086 8342</strong></h5>
+            <p class="text-warning text-center">
+                We offer a variety of trucking services to meet your transportation needs. Our team is dedicated to providing safe, reliable, and efficient trucking solutions tailored to your requirements.
+            </p>
+            <p class="text-warning text-center">
+                Whether you need to transport goods across town or across the country, we have the right trucks and skilled drivers to ensure your cargo arrives on time and in perfect condition. We pride ourselves on our commitment to customer satisfaction and flexibility in meeting your specific trucking needs.
+            </p>
+
+            <div class="row">
+                <!-- Trucking Services Carousel -->
+                <div class="col-md-6">
+                    <div id="truckingImageCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="tr1.webp" alt="Truck Image 1" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tr2.jpg" alt="Truck Image 2" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tr3.jpg" alt="Truck Image 3" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="tr4.jpg" alt="Truck Image 4" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#truckingImageCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#truckingImageCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Trucking Services Information -->
+                <div class="col-md-6 package-details text-warning mt-4">
+                    <h4>Services Offered:</h4>
+                    <ul class="list-unstyled">
+                        <li>– Local and Long-Distance Trucking</li>
+                        <li>– Freight Transportation</li>
+                        <li>– Dedicated Trucking Solutions</li>
+                        <li>– Flatbed Trucking</li>
+                        <li>– Refrigerated Trucking</li>
+                    </ul>
+                    <h5>Rates starting at: 1500.00 PHP</h5>
+                    
+                    <!-- Trucking Request Bullet List -->
+                    <h4 class="text-warning mt-4">Please provide the following details for a quotation:</h4>
+                    <ul class="list-unstyled text-warning">
+                        <li><strong>Pick Up Location:</strong> ______________________________________</li>
+                        <li><strong>Drop Off Location:</strong> ____________________________________</li>
+                        <li><strong>Type of Goods:</strong> _______________________________________</li>
+                        <li><strong>Estimated Weight:</strong> ______________________________________</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Inquire Now Button -->
+            <div class="text-center mt-5 mb-5">
+                <button onclick="showTruckingInquiryForm()" class="btn btn-warning btn-lg">Inquire Now</button>
+            </div>
+        </div>
+
+        <!-- Inquiry Form (Hidden initially) -->
+        <div id="truckingInquiryForm" class="d-none">
+            <h2 class="text-warning text-center mb-4 mt-5">Trucking Service Inquiry</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-warning">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-warning">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="pickup" class="form-label text-warning">Pick Up Location</label>
+                    <input type="text" class="form-control" id="pickup" required>
+                </div>
+                <div class="mb-3">
+                    <label for="dropoff" class="form-label text-warning">Drop Off Location</label>
+                    <input type="text" class="form-control" id="dropoff" required>
+                </div>
+                <div class="mb-3">
+                    <label for="goodsType" class="form-label text-warning">Type of Goods</label>
+                    <input type="text" class="form-control" id="goodsType" required>
+                </div>
+                <div class="mb-3">
+                    <label for="estimatedWeight" class="form-label text-warning">Estimated Weight</label>
+                    <input type="text" class="form-control" id="estimatedWeight" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning">Submit Inquiry</button>
+                    <button type="button" class="btn btn-secondary" onclick="hideTruckingInquiryForm()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!-- Heavy Equipment Section -->
+<section id="heavyEquipment" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container border-2 border-warning">
+        <div id="heavyEquipmentContent">
+            <h1 class="text-warning text-center mb-4 mt-5">Heavy Equipment Rental</h1>
+            <h5 class="text-warning text-center">Contact us for proper quotation at <strong>(0923) 086 8342</strong></h5>
+            <p class="text-warning text-center">
+                We offer a range of heavy equipment rentals to meet your construction and project needs. Our fleet includes various machinery, ensuring you have the right tools for the job.
+            </p>
+            <p class="text-warning text-center">
+                Our team is committed to providing high-quality equipment and exceptional service. Whether you need excavators, bulldozers, or any other heavy machinery, we have the solutions to help you complete your project efficiently.
+            </p>
+
+            <div class="row">
+                <!-- Heavy Equipment Carousel -->
+                <div class="col-md-6">
+                    <div id="heavyEquipmentCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="h1.webp" alt="Heavy Equipment Image 1" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="h2.webp" alt="Heavy Equipment Image 2" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="h3.jpg" alt="Heavy Equipment Image 3" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="h4.webp" alt="Heavy Equipment Image 4" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#heavyEquipmentCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#heavyEquipmentCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Heavy Equipment Services Information -->
+                <div class="col-md-6 package-details text-warning mt-4">
+                    <h4>Equipment Available for Rent:</h4>
+                    <ul class="list-unstyled">
+                        <li>– Excavators</li>
+                        <li>– Bulldozers</li>
+                        <li>– Backhoe Loaders</li>
+                        <li>– Skid Steer Loaders</li>
+                        <li>– Cranes</li>
+                    </ul>
+                    <h5>Rates starting at: 3000.00 PHP</h5>
+                    
+                    <!-- Heavy Equipment Rental Request Bullet List -->
+                    <h4 class="text-warning mt-4">Please provide the following details for a quotation:</h4>
+                    <ul class="list-unstyled text-warning">
+                        <li><strong>Location:</strong> ______________________________________</li>
+                        <li><strong>Scope of Work/Project:</strong> ____________________________________</li>
+                        <li><strong>Hours:</strong> _______________________________________</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Inquire Now Button -->
+            <div class="text-center mt-5 mb-5">
+                <button onclick="showHeavyEquipmentInquiryForm()" class="btn btn-warning btn-lg">Inquire Now</button>
+            </div>
+        </div>
+
+        <!-- Inquiry Form (Hidden initially) -->
+        <div id="heavyEquipmentInquiryForm" class="d-none">
+            <h2 class="text-warning text-center mb-4 mt-5">Heavy Equipment Rental Inquiry</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-warning">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-warning">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="location" class="form-label text-warning">Location</label>
+                    <input type="text" class="form-control" id="location" required>
+                </div>
+                <div class="mb-3">
+                    <label for="projectScope" class="form-label text-warning">Scope of Work/Project</label>
+                    <input type="text" class="form-control" id="projectScope" required>
+                </div>
+                <div class="mb-3">
+                    <label for="hours" class="form-label text-warning">Hours Required</label>
+                    <input type="text" class="form-control" id="hours" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning">Submit Inquiry</button>
+                    <button type="button" class="btn btn-secondary" onclick="hideHeavyEquipmentInquiryForm()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- General Construction and Maintenance Services Section -->
+<section id="general" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container border-2 border-warning">
+        <!-- Content Section -->
+        <div id="constructionContent">
+            <h1 class="text-warning text-center mb-4 mt-5">General Construction and Maintenance Services</h1>
+            <h5 class="text-warning text-center">Contact us for proper quotation at <strong>(0923) 086 8342</strong></h5>
+            <p class="text-warning text-center">
+                We offer a comprehensive range of construction and maintenance services to meet your project needs. Our skilled team ensures high-quality workmanship and timely completion.
+            </p>
+            <p class="text-warning text-center">
+                Our services include general construction, renovations, and maintenance, ensuring your projects are handled with care and professionalism.
+            </p>
+
+            <div class="row">
+                <!-- General Construction Carousel -->
+                <div class="col-md-6">
+                    <div id="constructionCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="c4.jpg" alt="Construction Image 1" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="c1.jpg" alt="Construction Image 2" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="c2.jpg" alt="Construction Image 3" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="c3.jpeg" alt="Construction Image 4" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#constructionCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#constructionCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- General Construction Services Information -->
+                <div class="col-md-6 package-details text-warning mt-4">
+                    <h4>Services Offered:</h4>
+                    <ul class="list-unstyled">
+                        <li>– General Construction</li>
+                        <li>– Renovations and Remodeling</li>
+                        <li>– Maintenance Services</li>
+                        <li>– Project Management</li>
+                        <li>– Consulting Services</li>
+                    </ul>
+                    <h5>Rates starting at: 3000.00 PHP</h5>
+                    
+                    <!-- General Construction Request Bullet List -->
+                    <h4 class="text-warning mt-4">Please provide the following details for a quotation:</h4>
+                    <ul class="list-unstyled text-warning">
+                        <li><strong>Location:</strong> ______________________________________</li>
+                        <li><strong>Scope of Work/Project:</strong> ____________________________________</li>
+                        <li><strong>Estimated Duration:</strong> _______________________________________</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Inquire Now Button -->
+            <div class="text-center mt-5 mb-5">
+                <button onclick="showConstructionInquiryForm()" class="btn btn-warning btn-lg">Inquire Now</button>
+            </div>
+        </div>
+
+        <!-- Inquiry Form Section (Initially Hidden) -->
+        <div id="constructionInquiryForm" style="display: none;">
+            <h2 class="text-warning text-center mb-4">General Construction and Maintenance Inquiry Form</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-warning">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-warning">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="projectDetails" class="form-label text-warning">Project Details</label>
+                    <textarea class="form-control" id="projectDetails" rows="3" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="budget" class="form-label text-warning">Budget</label>
+                    <input type="text" class="form-control" id="budget" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning">Submit Inquiry</button>
+                    <button type="button" class="btn btn-secondary" onclick="showConstructionContent()">Cancel</button>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Furniture Hotel and Residential Section -->
+<section id="hotel" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container border-2 border-warning">
+        <div id="furnitureContent"> <!-- Wrap current content in a div -->
+            <h1 class="text-warning text-center mb-4 mt-5">Furniture Hotel and Residential Services</h1>
+            <h5 class="text-warning text-center">Contact us for proper quotation at <strong>(0923) 086 8342</strong></h5>
+            <p class="text-warning text-center">
+                We provide a wide selection of furniture solutions tailored for hotels and residential spaces. Our collection features high-quality designs to enhance your environment.
+            </p>
+            <p class="text-warning text-center">
+                Our services include furniture supply, customization, and installation, ensuring your spaces reflect style and comfort.
+            </p>
+
+            <div class="row">
+                <!-- Furniture Carousel -->
+                <div class="col-md-6">
+                    <div id="furnitureCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="ho1.webp" alt="Furniture Image 1" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="ho2.jpg" alt="Furniture Image 2" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="ho3.png" alt="Furniture Image 3" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="ho4.webp" alt="Furniture Image 4" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#furnitureCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#furnitureCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Furniture Services Information -->
+                <div class="col-md-6 package-details text-warning mt-4">
+                    <h4>Furniture Options Available:</h4>
+                    <ul class="list-unstyled">
+                        <li>– Hotel Room Furniture</li>
+                        <li>– Lounge and Reception Furniture</li>
+                        <li>– Custom Residential Furniture</li>
+                        <li>– Outdoor Furniture</li>
+                        <li>– Furniture Accessories</li>
+                    </ul>
+                    <h5>Rates starting at: 5000.00 PHP</h5>
+                    
+                    <!-- Furniture Request Bullet List -->
+                    <h4 class="text-warning mt-4">Please provide the following details for a quotation:</h4>
+                    <ul class="list-unstyled text-warning">
+                        <li><strong>Location:</strong> ______________________________________</li>
+                        <li><strong>Type of Furniture:</strong> ____________________________________</li>
+                        <li><strong>Estimated Quantity:</strong> _______________________________________</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Inquire Now Button -->
+            <div class="text-center mt-5 mb-5">
+                <button onclick="showFurnitureInquiryForm()" class="btn btn-warning btn-lg">Inquire Now</button>
+            </div>
+        </div>
+
+        <!-- Inquiry Form (Hidden initially) -->
+        <div id="furnitureInquiryForm" class="d-none">
+            <h2 class="text-warning text-center mb-4 mt-5">Furniture Hotel and Residential Inquiry Form</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="furnitureName" class="form-label text-warning">Name</label>
+                    <input type="text" class="form-control" id="furnitureName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="furnitureEmail" class="form-label text-warning">Email</label>
+                    <input type="email" class="form-control" id="furnitureEmail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="furnitureLocation" class="form-label text-warning">Location</label>
+                    <input type="text" class="form-control" id="furnitureLocation" required>
+                </div>
+                <div class="mb-3">
+                    <label for="furnitureType" class="form-label text-warning">Type of Furniture</label>
+                    <input type="text" class="form-control" id="furnitureType" required>
+                </div>
+                <div class="mb-3">
+                    <label for="furnitureQuantity" class="form-label text-warning">Estimated Quantity</label>
+                    <input type="number" class="form-control" id="furnitureQuantity" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning">Submit Inquiry</button>
+                    <button type="button" class="btn btn-secondary" onclick="hideFurnitureInquiryForm()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- Auto Parts Section -->
+<section id="auto" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container border-2 border-warning">
+        <div id="autoPartsContent"> <!-- Wrap current content in a div -->
+            <h1 class="text-warning text-center mb-4 mt-5">Auto Parts</h1>
+            <h5 class="text-warning text-center">Contact us for proper quotation at <strong>(0923) 086 8342</strong></h5>
+            <p class="text-warning text-center">
+                We provide a wide selection of auto parts tailored for various vehicles. Our collection features high-quality components to enhance your vehicle's performance and longevity.
+            </p>
+            <p class="text-warning text-center">
+                Our services include parts supply, customization, and installation, ensuring your vehicle runs smoothly and efficiently.
+            </p>
+
+            <div class="row">
+                <!-- Auto Parts Carousel -->
+                <div class="col-md-6">
+                    <div id="autoPartsCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="a1.jpg" alt="Auto Parts Image 1" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="a2.jpg" alt="Auto Parts Image 2" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="a3.webp" alt="Auto Parts Image 3" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="a4.jpg" alt="Auto Parts Image 4" class="d-block w-100" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#autoPartsCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#autoPartsCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Auto Parts Services Information -->
+                <div class="col-md-6 package-details text-warning mt-4">
+                    <h4>Auto Parts Available:</h4>
+                    <ul class="list-unstyled">
+                        <li>– Engine Parts</li>
+                        <li>– Suspension Parts</li>
+                        <li>– Brake Components</li>
+                        <li>– Electrical Parts</li>
+                        <li>– Accessories and Upgrades</li>
+                    </ul>
+                    <h5>Rates starting at: 500.00 PHP</h5>
+                    
+                    <!-- Auto Parts Request Bullet List -->
+                    <h4 class="text-warning mt-4">Please provide the following details for a quotation:</h4>
+                    <ul class="list-unstyled text-warning">
+                        <li><strong>Vehicle Model:</strong> ______________________________________</li>
+                        <li><strong>Type of Parts Required:</strong> ____________________________________</li>
+                        <li><strong>Estimated Quantity:</strong> _______________________________________</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Inquire Now Button -->
+            <div class="text-center mt-5 mb-5">
+                <button onclick="showAutoPartsInquiryForm()" class="btn btn-warning btn-lg">Inquire Now</button>
+            </div>
+        </div>
+
+        <!-- Inquiry Form (Hidden initially) -->
+        <div id="autoPartsInquiryForm" class="d-none">
+            <h2 class="text-warning text-center mb-4 mt-5">Auto Parts Inquiry</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="autoPartsName" class="form-label text-warning">Name</label>
+                    <input type="text" class="form-control" id="autoPartsName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="autoPartsEmail" class="form-label text-warning">Email</label>
+                    <input type="email" class="form-control" id="autoPartsEmail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="autoPartsVehicleModel" class="form-label text-warning">Vehicle Model</label>
+                    <input type="text" class="form-control" id="autoPartsVehicleModel" required>
+                </div>
+                <div class="mb-3">
+                    <label for="autoPartsType" class="form-label text-warning">Type of Parts Required</label>
+                    <input type="text" class="form-control" id="autoPartsType" required>
+                </div>
+                <div class="mb-3">
+                    <label for="autoPartsQuantity" class="form-label text-warning">Estimated Quantity</label>
+                    <input type="number" class="form-control" id="autoPartsQuantity" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning">Submit Inquiry</button>
+                    <button type="button" class="btn btn-secondary" onclick="hideAutoPartsInquiryForm()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Function to show the inquiry form and hide current content
+    function showAutoPartsInquiryForm() {
+        document.getElementById('autoPartsContent').classList.add('d-none'); // Hide current content
+        document.getElementById('autoPartsInquiryForm').classList.remove('d-none'); // Show inquiry form
+    }
+
+    // Function to hide the inquiry form and show current content again
+    function hideAutoPartsInquiryForm() {
+        document.getElementById('autoPartsInquiryForm').classList.add('d-none'); // Hide inquiry form
+        document.getElementById('autoPartsContent').classList.remove('d-none'); // Show current content
+    }
+</script>
+
+
+<!-- Contact Section -->
+<section id="contact" class="bg-dark min-vh-100 d-flex align-items-center border-bottom border-warning border-1">
+    <div class="container d-flex justify-content-center">
+        <div class="card border-warning bg-warning text-dark" style="width: 24rem;">
+            <div class="card-body">
+                <h1 class="card-title text-center mb-4">Contact Us</h1>
+                <h5 class="text-center">Email: <strong>info@penguin.asia</strong></h5>
+                <h5 class="text-center">Mobile No.: <strong>(0923) 086 8342</strong></h5>
+                
+                <p class="text-center mt-4">
+                    If you have any inquiries or require further information, please do not hesitate to reach out to us. We are here to assist you!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-warning text-center py-4">
+    <div class="container">
+        <p class="mb-0">© 2024 Penguin Sales & Services Company – All rights reserved</p>
+        <p class="mb-0">Powered by WP – Designed with the Customizr theme</p>
+        <div class="mt-3">
+            <h5>Subscribe to my RSS Feed</h5>
+            <a href="YOUR_RSS_FEED_URL" class="text-warning">Click here to subscribe</a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    <script src="script.js">
+      
+    </script>
+</body>
+</html>

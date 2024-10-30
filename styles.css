@@ -1,0 +1,66 @@
+/* Initial off-screen position for the sections */
+#bridalCarServices, 
+#towingServices,
+#truckingServices,
+#heavyEquipment,
+#general,
+#hotel,
+#auto{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Slide-in animation for sections */
+#bridalCarServices.animate, 
+#towingServices.animate,
+#truckingServices.animate,
+#heavyEquipment.animate,
+#general.animate,
+#hotel.animate,
+#auto.animate{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Animation style for <h1> elements */
+.animated-text {
+    opacity: 0;
+    transform: translateY(20px); /* Initial off-screen position for <h1> */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Slide-in animation for <h1> elements */
+.animated-text.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Individual line animations */
+.line-1 {
+    animation-delay: 0.5s;
+    margin-bottom: 10px; /* Space between lines */
+    margin-top: -350px; /* Move 350px up */
+}
+
+.line-2 {
+    animation-delay: 1s;
+    margin-top: -110px; /* Move 110px up */
+}
+
+/* Keyframes for the fade-up animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Centering the text vertically and adjusting spacing */
+#home .container-fluid {
+    padding-top: 20vh; /* Adjusts the vertical position */
+}
